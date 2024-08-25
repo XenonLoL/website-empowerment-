@@ -1,0 +1,142 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background: #003366;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+#hero {
+    background: #e0e0e0;
+    padding: 50px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    margin: 0;
+    font-size: 32px;
+    color: #333;
+}
+
+#hero p {
+    font-size: 18px;
+    color: #666;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #003366;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+/* About Section */
+#about {
+    padding: 30px;
+    text-align: center;
+}
+
+#about h2 {
+    color: #003366;
+}
+
+#about p {
+    max-width: 800px;
+    margin: 0 auto;
+    color: #666;
+}
+
+/* Resources Section */
+#resources {
+    background: #f0f0f0;
+    padding: 30px;
+    text-align: center;
+}
+
+.resource-item {
+    display: inline-block;
+    width: 30%;
+    margin: 20px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.resource-item h3 {
+    color: #003366;
+}
+
+.resource-item p {
+    color: #666;
+}
+
+.resource-item a {
+    color: #003366;
+    text-decoration: none;
+}
+
+/* Get Involved Section */
+#get-involved {
+    padding: 30px;
+    text-align: center;
+}
+
+#get-involved h2 {
+    color: #003366;
+}
+
+#get-involved p {
+    color: #666;
+}
+
+#get-involved .btn {
+    margin: 10px;
+}
+
+/* Footer */
+footer {
+    background: #003366;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 5px 0;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
